@@ -2,7 +2,7 @@ def getDuplicate(numbers):
     # 初始化辅助数组
     auxiliary = [None for i in range(len(numbers))]
     for number in numbers:
-        if auxiliary[number] != None:
+        if auxiliary[number] is not None:
             return number
         auxiliary[number] = number
     return None

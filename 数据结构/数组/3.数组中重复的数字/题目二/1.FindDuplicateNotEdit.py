@@ -1,4 +1,5 @@
-## 时间换空间，不使用辅助数组，时间复杂度为O(nlogn),空间复杂度为O(1)
+# 时间换空间，不使用辅助数组，时间复杂度为O(nlogn),空间复杂度为O(1)
+
 
 # 统计值在star to end内的数字个数
 def countRange(numbers, start, end):
