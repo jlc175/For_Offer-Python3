@@ -1,4 +1,8 @@
 def duplicate(nums):
+    # 判断是否输入了[0,n-1]以外的数字
+    for num in nums:
+        if num < 0 or num > len(nums) - 1:
+            return False
     # 从头遍历数组
     for i in range(len(nums)):
         # 当前位置的数字不在它应该的位置
